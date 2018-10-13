@@ -1,0 +1,75 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="newTest.aspx.cs" Inherits="newTest" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+     <div style="margin-right: auto;margin-left: auto;padding-left: 15px;padding-right: 15px; " >
+        <div  style="margin-left: -15px;margin-right: -15px;">
+            <div style="position: relative; min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;">
+                <div style="margin-left: -15px;margin-right: -15px;">
+                    <div style="position: relative; min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;box-sizing: border-box;
+                    padding-bottom: 5px;color: #f71f2b;font-size: 20px;font-family: 'Century Gothic'; "><strong>%fullname%</strong></div>
+                </div>
+                <div style="margin-left: -15px;margin-right: -15px;">
+                    <div style="position: relative; min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;box-sizing: border-box;
+                    padding-bottom: 5px; box-sizing: border-box;color: #111213;font-size: 17px;font-family: 'Century Gothic';">%unit%</div>
+                </div>
+                <div style="margin-left: -15px;margin-right: -15px;">
+                    <div style="position: relative; min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;box-sizing: border-box;
+                    padding-bottom: 5px; box-sizing: border-box;color: #111213;font-size: 17px;font-family: 'Century Gothic';">%group%, Sterling Bank PLC, %address1%,%address2% </div>
+                </div>
+
+
+                <div style="margin-left: -15px;margin-right: -15px;">
+                    <div style="position: relative; min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;box-sizing: border-box;
+                    padding-bottom: 5px; box-sizing: border-box;color: #111213;font-size: 17px;font-family: 'Century Gothic';"><span class="Holder" style="color: #FF0000; font-weight: bolder" >P:</span>&nbsp;%phone%<span class="Holder" style="color: #FF0000; font-weight: bolder">&nbsp;Ext:</span>&nbsp;%extension%<span class="Holder" style="color: #FF0000; font-weight: bolder">&nbsp;M:</span>&nbsp;%mobile%</div>
+
+                </div>
+                <div style="margin-left: -15px;margin-right: -15px;">
+                    <div style="position: relative; min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;box-sizing: border-box;
+                    padding-bottom: 5px; box-sizing: border-box;color: #111213;font-size: 17px;font-family: 'Century Gothic';">&nbsp;<span class="Holder" style="color: #FF0000; font-weight: bolder">E:&nbsp;</span>%email%</div>
+                </div>
+
+
+                <div style="margin-left: -15px;margin-right: -15px;">
+
+                    <div style="position: relative; min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;box-sizing: border-box;
+                    padding-bottom: 5px; box-sizing: border-box;color: #111213;font-size: 17px;font-family: 'Century Gothic';"><strong><a style="box-sizing: border-box; color: #000000; text-decoration-line: none;" href="http://www.sterlingbankng.com/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://www.sterlingbankng.com/&amp;source=gmail&amp;ust=1496700902779000&amp;usg=AFQjCNFJePjizWYCNpoODW9FBx-eZ2R1Ig">www.sterlingbankng.com</a>&nbsp;</strong></div>
+                </div>
+
+            </div>
+            <div style=" position: relative;min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;  ">
+
+                <div style="position: relative;min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;   height: 200px;
+                    width: 200px;  display: block;max-width: 100%;height: auto;"><img class="col-md-7 col-md-offset-2 imageSterling" src="https://drive.google.com/uc?id=0B8ccZQzaOYirVXpvUmpscldkaTg" /></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div></div>
+    <div style="margin-right: auto;margin-left: auto;padding-left: 15px;padding-right: 15px; ">
+        <div style="margin-left: -15px;margin-right: -15px;">
+            <div style="margin-left: -15px;margin-right: -15px;">
+                <div style=" position: relative; min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;">
+                    <div style=" position: relative;min-height: 1px;padding-left: 15px;padding-right: 15px;top: 0px;left: 0px;">
+
+                        <img src="https://drive.google.com/uc?id=0B8ccZQzaOYirXzN3YXU0NV96OW8" alt="ds" />
+                    </div>
+                </div>
+                <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                </div>
+                <div class="divTableRow">
+                    <div class="divTableCell">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

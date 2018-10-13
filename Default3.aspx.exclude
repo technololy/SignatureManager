@@ -1,0 +1,61 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default3.aspx.cs" Inherits="Default3" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+      
+       
+        
+    </style>
+</head>
+<body>
+ <table >
+        <tr>
+            <td>
+                <img src="https://epayments.sterlingbankng.com/email/emailadvert2.png" style="height:100%" alt="Alternate Text" />
+
+            </td>
+        </tr>
+    </table>
+    <table style="width: 100%;">
+        <tr>
+            <td style="box-sizing: border-box; padding-bottom: 5px; color: #f71f2b; font-size: 20px; font-family: 'Century Gothic'; width: 512px;"><strong>%fullname%</strong></td>
+
+           <td>
+
+           </td>
+        </tr>
+        <tr>
+            <td style="box-sizing: border-box; color: #111213; font-family:'Century Gothic';" class="auto-style1">%unit%</td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td style="box-sizing: border-box; color: #111213; font-family: 'Century Gothic';" class="auto-style1">%group%, Sterling Bank PLC,</td>
+             <td rowspan="5">
+                <img src="https://epayments.sterlingbankng.com/email/SterlingNewLogo222.png" alt="www.sterlingbankng.com"  />
+            </td>
+        </tr>
+        <tr>
+            <td style="box-sizing: border-box; color: #111213; font-family: 'Century Gothic';" class="auto-style1">%address1%, %address2%</td>
+
+        </tr>
+        <tr>
+            <td style="box-sizing: border-box; vertical-align: top; color: #111213; font-family: 'Century Gothic';" valign="top" class="auto-style1"><span style="box-sizing: border-box; color: #f71f2b; font-weight: bold;">P:</span> %phone%&nbsp;&nbsp;|<span style="box-sizing: border-box; color: #f71f2b; font-weight: bold;">M:&nbsp;</span>%mobile% &nbsp;| &nbsp;<span style="box-sizing: border-box; color: #f71f2b; font-weight: bold;">Ext:</span> %extension% </td>
+
+        </tr>
+        <tr>
+            <td style="box-sizing: border-box; vertical-align: top; color: #111213; font-family: 'Century Gothic';" valign="top" class="auto-style1"><span style="box-sizing: border-box; color: #f71f2b; font-weight: bold;">E:</span> %email%</td>
+        </tr>
+        <tr>
+            <td style="box-sizing: border-box; vertical-align: top; color: #111213; font-family: 'Century Gothic';" valign="top" class="auto-style1"><strong><a style="box-sizing: border-box; color:black; text-decoration-line: none;" href="http://www.sterlingbankng.com/" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=en&amp;q=http://www.sterlingbankng.com/&amp;source=gmail&amp;ust=1496700902779000&amp;usg=AFQjCNFJePjizWYCNpoODW9FBx-eZ2R1Ig">www.sterlingbankng.com</a>&nbsp;&nbsp;</strong></td>
+            
+        </tr>
+      
+    </table>
+  
+</body>
+</html>
